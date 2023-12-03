@@ -7,6 +7,30 @@ import { AiFillGoogleCircle } from "react-icons/ai";
 
 const Contact = () => {
 
+  function SendMail(event){
+    event.preventDefault() 
+    emailjs.init('nVHOH2oG6GwI4Pdc7');
+    let parms = {
+    
+        from_name : document.getElementById("fullName").value,
+        email_id : document.getElementById("email_id").value,
+        project: document.getElementById("project").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_3ywvtgh","template_243rb0i",parms).then(function (res){
+        document.getElementById("fullName").value = "";
+        document.getElementById("email_id").value = "";
+        document.getElementById("project").value = "";
+        document.getElementById("message").value = "";
+  
+        console.log(res);
+        alert("success!"+res.status);
+    }).catch((err)=>{
+       console.log(err);
+    })
+    
+    }
+
 return <section className="contact" id="contect">
     <h1 className="heading"><span>Contact</span>me</h1>
     <div className="row">
