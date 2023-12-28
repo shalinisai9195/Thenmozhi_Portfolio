@@ -21,7 +21,7 @@ const About = () => {
           <h3>
             <span>Language :</span>English,Tamil
           </h3>
-          <a href="../../src/Resume/Thenmozhi_L_Resume.pdf" download="Thenmozhi_Resume1.pdf">
+          <a href="https://drive.google.com/file/d/1Qq0K7xsx20i5jcAROjbOa4NGwlf1gmlq/view?usp=sharing" target="_blank" >
             <button className="btn">
               Download CV<i className="fas fa-download"></i>
             </button>

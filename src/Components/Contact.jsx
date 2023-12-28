@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Components/style.css';
-import { FaYoutube } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { AiFillGoogleCircle } from "react-icons/ai";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+
 
 
 const Contact = () => {
@@ -41,10 +41,10 @@ return <section className="contact" id="contect">
              <h3><i className="fas fa-phone"></i>+91 988-443-0375</h3>
              <h3><i className="fas fa-map-marker-alt"></i>Chennai-600077, India.</h3>
        <div className="social-media">
-          <a href="https://www.google.com/" target='_blank'><AiFillGoogleCircle /></a>
-          <a href="https://www.youtube.com/" target='_blank'><FaYoutube/></a>  
-          <a href="https://www.twitter.com/" target='_blank'><FaTwitterSquare /></a> 
-
+          
+          <a href="https://www.linkedin.com/in/thenmozhi-l-57334a292/" target='_blank'><FaLinkedin /></a>  
+          <a href="https://github.com/shalinisai9195" target='_blank'><FaGithub /></a>
+         
        </div>
        </div>
 

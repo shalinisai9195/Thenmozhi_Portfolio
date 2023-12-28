@@ -397,21 +397,26 @@ header .navclass ul li a:hover{
 }
 .card{
     margin-left: 10px;
+    height: 400px;
 }
 
 .own-style{
-    padding: 5px 8px;
-    margin: 5px 5px;
+    display: inline-block;
+    padding: 4px 4px;
+    margin: 2px 2px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     text-align: center;
     border: none;
-    font-weight: 400px;
+    font-weight: bold;
 }
 .dep-url{
     border: none;
-    border-radius: 5px;
-    margin: 5px 40px;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    align-items: center;
+    
 }
 
 /* Portfolio end */
