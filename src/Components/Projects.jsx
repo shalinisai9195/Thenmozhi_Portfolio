@@ -47,14 +47,14 @@ const Projects = () => {
         </div>
       </div> 
       <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
-      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Login_authentication</h3>
-        <img src={Login} className="card-img-top img-sty" alt="calsy"/>
+      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Recipe_Books</h3>
+        <img src="https://www.printablee.com/postpic/2010/02/printable-cookbook-cover-designs_220998.jpg" className="card-img-top img-sty" alt="calsy"/>
         <div className="card-body">
-          <a href="https://github.com/shalinisai9195/login_FrontEnd" target="_blank" 
+          <a href="https://github.com/shalinisai9195/Recipe_Books" target="_blank" 
           className="btn btn-primary own-style">FEnd-SCode</a>
-          <a href="https://github.com/shalinisai9195/login_backEnd" target="_blank" 
+          <a href="https://github.com/shalinisai9195/RecipeBooks_BackEnd" target="_blank" 
           className="btn btn-primary own-style">BEnd-SCode</a>
-          <a href="https://polite-sorbet-38af4c.netlify.app/" target="_blank" 
+          <a href="https://snazzy-custard-3381f6.netlify.app/" target="_blank" 
           className="btn btn-primary dep-url">Deploy-url</a>
         </div>
       </div>
