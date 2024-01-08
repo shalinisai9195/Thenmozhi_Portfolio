@@ -59,6 +59,20 @@ const Projects = () => {
         </div>
       </div>
       <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
+        <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Movie_Booking_App</h3>
+        <img src={"https://hirharang.com/wp-content/uploads/2018/07/Movie-Ticket-Booking-Online.jpg"} 
+        style={{height:"255px"}} 
+        className="card-img-top" alt="booking"/>
+        <div className="card-body">
+          <a href="https://github.com/shalinisai9195/Movie_Booking_FrontEnd" target="_blank" 
+          className="btn btn-primary own-style">FEnd-SCode</a>
+          <a href="https://github.com/shalinisai9195/Movie_Booking_BackEnd" target="_blank" 
+          className="btn btn-primary own-style">BEnd-SCode</a>
+          <a href="https://movie-booking-app-fend.netlify.app" target="_blank" 
+          className="btn btn-primary dep-url">Deploy-url</a>
+        </div>
+      </div>
+      <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
         <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Food_Order</h3>
         <img src={Junkfood} className="card-img-top" alt="calsy"/>
         <div className="card-body">
@@ -74,8 +88,6 @@ const Projects = () => {
       <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Student_Database</h3>
         <img src={Education} className="card-img-top" alt="calsy"/>
         <div className="card-body">
-          {/* <a href="https://github.com/shalinisai9195/Nodejs_Student-Mentor-Database" target="_blank" 
-          className="btn btn-primary own-style">FEnd-SCode</a> */}
           <a href="https://github.com/shalinisai9195/Nodejs_Student-Mentor-Database" target="_blank" 
           className="btn btn-primary own-style">BEnd-SCode</a>
           <a href="https://studentsdatabase.onrender.com/" target="_blank" 
