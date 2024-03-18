@@ -21,43 +21,19 @@ const Projects = () => {
           className="btn btn-primary dep-url">Deploy-url</a>
         </div>
     </div> */}
-      <div className="card card2-bank" style={{width:'25rem', margin: '15px'}}>
-      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Money_Tracker</h3>
-        <img src={img2} className="card-img-top img-sty" alt="calsy"/>
-        <div className="card-body">
-          <a href="https://github.com/shalinisai9195/Money_managing_frontend" target="_blank" 
-          className="btn btn-primary own-style">FEnd-SCode</a>
-          <a href="https://github.com/shalinisai9195/Money_managing_BackEnd" target="_blank" 
-          className="btn btn-primary own-style">BEnd-SCode</a>
-          <a href="https://money-managing-frontend.netlify.app/" target="_blank" 
-          className="btn btn-primary dep-url">Deploy-url</a>
-        </div>
-      </div>
        <div className="card card2-bank" style={{width:'25rem' ,margin: '15px'}}>
         <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>My Blogs</h3>
         <img src="https://www.agencycentral.co.uk/sites/default/files/techbloggers.jpg" className="card-img-top img-sty" alt="calsy"/>
         <div className="card-body">
           
-          <a href="https://github.com/shalinisai9195/Blogs_FrontEnd" target="_blank" 
+          <a href="https://github.com/shalinisai9195/Msg_Post_Blogs" target="_blank" 
           className="btn btn-primary own-style">FEnd-SCode</a>
-          <a href="https://github.com/shalinisai9195/Blogs_BackEnd" target="_blank" 
+          <a href="https://github.com/shalinisai9195/Msg_blog_post_BEnd" target="_blank" 
           className="btn btn-primary own-style">BEnd-SCode</a>
-          <a href="https://myblogs-frontend.netlify.app/" target="_blank" 
+          <a href="https://bejewelled-sfogliatella-ce44e7.netlify.app/" target="_blank" 
           className="btn btn-primary dep-url">Deploy-url</a>
         </div>
       </div> 
-      <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
-      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Recipe_Books</h3>
-        <img src="https://www.printablee.com/postpic/2010/02/printable-cookbook-cover-designs_220998.jpg" className="card-img-top img-sty" alt="calsy"/>
-        <div className="card-body">
-          <a href="https://github.com/shalinisai9195/Recipe_Books" target="_blank" 
-          className="btn btn-primary own-style">FEnd-SCode</a>
-          <a href="https://github.com/shalinisai9195/RecipeBooks_BackEnd" target="_blank" 
-          className="btn btn-primary own-style">BEnd-SCode</a>
-          <a href="https://snazzy-custard-3381f6.netlify.app/" target="_blank" 
-          className="btn btn-primary dep-url">Deploy-url</a>
-        </div>
-      </div>
       <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
         <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Movie_Booking_App</h3>
         <img src={"https://hirharang.com/wp-content/uploads/2018/07/Movie-Ticket-Booking-Online.jpg"} 
@@ -72,6 +48,31 @@ const Projects = () => {
           className="btn btn-primary dep-url">Deploy-url</a>
         </div>
       </div>
+      <div className="card card2-bank" style={{width:'25rem', margin: '15px'}}>
+      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Money_Tracker</h3>
+        <img src={img2} className="card-img-top img-sty" alt="calsy"/>
+        <div className="card-body">
+          <a href="https://github.com/shalinisai9195/Money_managing_frontend" target="_blank" 
+          className="btn btn-primary own-style">FEnd-SCode</a>
+          <a href="https://github.com/shalinisai9195/Money_managing_BackEnd" target="_blank" 
+          className="btn btn-primary own-style">BEnd-SCode</a>
+          <a href="https://money-managing-frontend.netlify.app/" target="_blank" 
+          className="btn btn-primary dep-url">Deploy-url</a>
+        </div>
+      </div>
+      <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
+      <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Recipe_Books</h3>
+        <img src="https://www.printablee.com/postpic/2010/02/printable-cookbook-cover-designs_220998.jpg" className="card-img-top img-sty" alt="calsy"/>
+        <div className="card-body">
+          <a href="https://github.com/shalinisai9195/Recipe_Books" target="_blank" 
+          className="btn btn-primary own-style">FEnd-SCode</a>
+          <a href="https://github.com/shalinisai9195/RecipeBooks_BackEnd" target="_blank" 
+          className="btn btn-primary own-style">BEnd-SCode</a>
+          <a href="https://snazzy-custard-3381f6.netlify.app/" target="_blank" 
+          className="btn btn-primary dep-url">Deploy-url</a>
+        </div>
+      </div>
+      
       <div className="card card2-bank" style={{width: '25rem',margin: '15px'}}>
         <h3 style={{textAlign:"center",fontFamily:"Arial",fontWeight:"bold"}}>Food_Order</h3>
         <img src={Junkfood} className="card-img-top" alt="calsy"/>
